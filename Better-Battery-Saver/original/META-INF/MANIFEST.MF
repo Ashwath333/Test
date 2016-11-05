@@ -1,0 +1,67 @@
+Manifest-Version: 1.0
+Built-By: 2.1.0
+Created-By: Android Gradle 2.1.0
+
+Name: res/xml/preferences.xml
+SHA1-Digest: I9xYH0jngwdg9J2/kCwTaaYiGQ8=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: LlrKBquxo1LaV9E2vfp4Jlk2Izs=
+
+Name: res/drawable-hdpi-v4/ic_notification.png
+SHA1-Digest: zPS1lj2/4oUyB6L+FMwirkkpFuo=
+
+Name: res/drawable-xhdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: noRjqz4p8uMkrJ/Z727ZMxEs5HE=
+
+Name: res/drawable-mdpi-v4/ic_notification.png
+SHA1-Digest: kJ9ZODWWwnuAjpnftHcwOY6mW04=
+
+Name: resources.arsc
+SHA1-Digest: B0+DMf71eqsL0pZE0hfA4d/LNPo=
+
+Name: classes.dex
+SHA1-Digest: 8BvGjqrERwdpK0njBeY4bjLdAR8=
+
+Name: res/drawable-xxhdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: mTNw8G2U/S8tUtdnsl5YcYT+LZ8=
+
+Name: res/xml/app_services.xml
+SHA1-Digest: W+grVCOjdf9sk/QK6ZhOOodeXpU=
+
+Name: res/drawable-xhdpi-v4/ic_notification.png
+SHA1-Digest: IJLyiXruivsze/o+CkTRMkIzAYk=
+
+Name: res/xml/app_receivers.xml
+SHA1-Digest: 9DVUfUYvuFA5vjnpei0rV0W/7B8=
+
+Name: res/drawable-xxhdpi-v4/ic_notification.png
+SHA1-Digest: Jqofe8DS2DMAGgbZpZPrFW+onxo=
+
+Name: AndroidManifest.xml
+SHA1-Digest: D6r+RlozdDtc7e/GciykTEIu4gk=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: 4po2/xH5ZeLm9SQe5W/m30Cb9VM=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: YVKbr73DWEz46eV2Xg8C13ZgZUA=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: yZRF0n/SmcoksI4+hdnSg2qjVc4=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: hjqB0DG9bc3pRSdQ/E0ukSIiB6Q=
+
+Name: res/xml/app_settings.xml
+SHA1-Digest: NME+GN6+O1y+A+Y2AelD4Kckh84=
+
+Name: assets/xposed_init
+SHA1-Digest: 2Ue+NY27UDOWANLTtwedSkEiXV0=
+
+Name: res/drawable-hdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: m7mCa2txavjN9ndO5rCAzvifow4=
+
+Name: res/drawable-mdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: IZHvANV2ZosXGnrom0I5cvJV5CY=
+

@@ -1,0 +1,40 @@
+package com.pyler.betterbatterysaver.hooks;
+
+import com.pyler.betterbatterysaver.util.Constants;
+import de.robv.android.xposed.IXposedHookLoadPackage;
+import de.robv.android.xposed.IXposedHookZygoteInit;
+import de.robv.android.xposed.IXposedHookZygoteInit.StartupParam;
+import de.robv.android.xposed.XSharedPreferences;
+import de.robv.android.xposed.callbacks.XC_LoadPackage.LoadPackageParam;
+
+public class XposedMain implements IXposedHookZygoteInit, IXposedHookLoadPackage {
+    private static XSharedPreferences prefs;
+
+    public void initZygote(StartupParam startupParam) throws Throwable {
+        prefs = new XSharedPreferences(Constants.PACKAGE_NAME);
+        prefs.makeWorldReadable();
+    }
+
+    public void handleLoadPackage(LoadPackageParam lpparam) throws Throwable {
+        SelfHook.init(prefs, lpparam);
+        if (prefs.getBoolean("app_battery_saving", false)) {
+            ActivityController.init(prefs, lpparam);
+            AppActivityController.init(prefs, lpparam);
+            AppBrightnessController.init(prefs, lpparam);
+            AlarmController.init(prefs, lpparam);
+            AppThemeController.init(prefs, lpparam);
+            AutoSyncController.init(prefs, lpparam);
+            BluetoothController.init(prefs, lpparam);
+            CameraController.init(prefs, lpparam);
+            ConnectionController.init(prefs, lpparam);
+            NotificationController.init(prefs, lpparam);
+            NotificationLightController.init(prefs, lpparam);
+            ReceiverController.init(prefs, lpparam);
+            ServiceController.init(prefs, lpparam);
+            VibrationController.init(prefs, lpparam);
+            WakelockController.init(prefs, lpparam);
+            WifiController.init(prefs, lpparam);
+            WifiApController.init(prefs, lpparam);
+        }
+    }
+}

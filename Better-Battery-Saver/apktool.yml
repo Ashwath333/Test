@@ -1,0 +1,23 @@
+!!brut.androlib.meta.MetaInfo
+apkFileName: app-release.apk
+compressionType: false
+doNotCompress:
+- arsc
+- assets/xposed_init
+isFrameworkApk: false
+packageInfo:
+  forcedPackageId: '127'
+  renameManifestPackage: null
+sdkInfo:
+  minSdkVersion: '16'
+  targetSdkVersion: '23'
+sharedLibrary: false
+unknownFiles: {}
+usesFramework:
+  ids:
+  - 1
+  tag: null
+version: 2.2.1
+versionInfo:
+  versionCode: '104'
+  versionName: 1.0.4

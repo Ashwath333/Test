@@ -1,0 +1,67 @@
+Signature-Version: 1.0
+Created-By: 1.0 (Android)
+SHA1-Digest-Manifest: VdeG2O5eeAGsjot1lH/A4VH49HU=
+
+Name: res/xml/preferences.xml
+SHA1-Digest: n+azd/NStVxh31dO8vZ20s4Yzsc=
+
+Name: res/mipmap-xxxhdpi-v4/ic_launcher.png
+SHA1-Digest: 2I789/0WKFM9dYX9nPJUF4WkjI8=
+
+Name: res/drawable-hdpi-v4/ic_notification.png
+SHA1-Digest: bljI249r9TWN9vkfibw6YhA2bnw=
+
+Name: res/drawable-xhdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: GjqXx1S5QLSWtIPcJ2F+m71fcEk=
+
+Name: res/drawable-mdpi-v4/ic_notification.png
+SHA1-Digest: BGRdFXVY0tLyzOsSzibHUpv9cfU=
+
+Name: resources.arsc
+SHA1-Digest: J6wO0xnAFcq5NePMacj+9VkQoDk=
+
+Name: classes.dex
+SHA1-Digest: XgeR87x/cZVe6Jynrx7IIEEb53o=
+
+Name: res/drawable-xxhdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: 2YjRuS0BzMw7aL7Nfh+W+Zedj5E=
+
+Name: res/xml/app_services.xml
+SHA1-Digest: fFQJ5kJ9E0+/eDMfIxVw7OlBdos=
+
+Name: res/drawable-xhdpi-v4/ic_notification.png
+SHA1-Digest: 3/QBQDJpiTFXTxyavvR7xUBxN7s=
+
+Name: res/xml/app_receivers.xml
+SHA1-Digest: 7iiN7MsalR8LhiFxi0UD7Kk0DPY=
+
+Name: res/drawable-xxhdpi-v4/ic_notification.png
+SHA1-Digest: ToMBLi780ToPncs1PFf5E3ai/VA=
+
+Name: AndroidManifest.xml
+SHA1-Digest: mPMn8fCck9AannYJhA/yrgCQZt4=
+
+Name: res/mipmap-hdpi-v4/ic_launcher.png
+SHA1-Digest: tWvN48N3jaKbuzuDyMLhVDRYDl0=
+
+Name: res/mipmap-mdpi-v4/ic_launcher.png
+SHA1-Digest: 2c4+Wq8DrS4VMzlICDP4q8vCn8M=
+
+Name: res/mipmap-xhdpi-v4/ic_launcher.png
+SHA1-Digest: 6cEbkVB1IZAhwix+6oe22O1mUBc=
+
+Name: res/mipmap-xxhdpi-v4/ic_launcher.png
+SHA1-Digest: v0Sfuy8VORl/gLpNQcjMpI2EGYk=
+
+Name: res/xml/app_settings.xml
+SHA1-Digest: +HCP0at6s6lfYwG/ecSdrjqj96U=
+
+Name: res/drawable-mdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: 4ODTwq0cvljVyAHXBa2Ps4PN0YQ=
+
+Name: res/drawable-hdpi-v4/ic_notification_turn_on.png
+SHA1-Digest: EIsC1XN/n/N+AJvicaJOdErgFBI=
+
+Name: assets/xposed_init
+SHA1-Digest: b1CsfJ2Nc3uzrCMdSxw8fGwCrBw=
+

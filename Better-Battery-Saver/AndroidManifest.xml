@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:"http://schemas.android.com/apk/res/android" android:versionCode="104" android:versionName="1.0.4" package="com.pyler.betterbatterysaver" platformBuildVersionCode="23" platformBuildVersionName="6.0-2704002">
+    <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="23" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <application android:theme="@style/AppTheme" android:label="@string/app_name" android:icon="@mipmap/ic_launcher" android:allowBackup="true" android:supportsRtl="true">
+        <meta-data android:name="xposedmodule" android:value="true" />
+        <meta-data android:name="xposeddescription" android:value="@string/app_battery_saving_settings" />
+        <meta-data android:name="xposedminversion" android:value="54" />
+        <activity android:label="@string/app_name" android:name="com.pyler.betterbatterysaver.activities.PreferencesActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/app_name" android:name="com.pyler.betterbatterysaver.activities.AppSettingsActivity" />
+        <activity android:label="@string/app_name" android:name="com.pyler.betterbatterysaver.activities.AppServiceSettingsActivity" />
+        <activity android:label="@string/app_name" android:name="com.pyler.betterbatterysaver.activities.AppReceiverSettingsActivity" />
+        <receiver android:name="com.pyler.betterbatterysaver.receivers.BetterBatterySaverReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BATTERY_CHANGED" />
+                <action android:name="android.os.action.DEVICE_IDLE_MODE_CHANGED" />
+                <action android:name="android.os.action.POWER_SAVE_MODE_CHANGED" />
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="com.pyler.betterbatterysaver.START" />
+                <action android:name="com.pyler.betterbatterysaver.STOP" />
+            </intent-filter>
+        </receiver>
+        <service android:name="com.pyler.betterbatterysaver.services.BatteryMonitorService" />
+    </application>
+</manifest>

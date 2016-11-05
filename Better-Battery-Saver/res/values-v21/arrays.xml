@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="exit_mode">
+        <item>@string/automatically</item>
+        <item>@string/notification</item>
+        <item>@string/parallel_android_saver</item>
+    </string-array>
+    <string-array name="exit_mode_values">
+        <item>auto</item>
+        <item>notification</item>
+        <item>android_saver</item>
+    </string-array>
+    <string-array name="start_mode">
+        <item>@string/automatically</item>
+        <item>@string/notification</item>
+        <item>@string/parallel_android_saver</item>
+    </string-array>
+    <string-array name="start_mode_values">
+        <item>auto</item>
+        <item>notification</item>
+        <item>android_saver</item>
+    </string-array>
+</resources>

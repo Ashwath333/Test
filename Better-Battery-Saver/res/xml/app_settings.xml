@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen android:key="app_settings">
+    <CheckBoxPreference android:title="@string/battery_saving" android:key="battery_saving" android:summary="@string/enable_app_battery_saving" android:defaultValue="false" />
+    <SeekBarPreference android:enabled="false" android:max="100" android:title="@string/battery_level_threshold" android:key="battery_level_threshold" android:defaultValue="15" />
+    <PreferenceCategory android:title="@string/battery_saving_settings" android:key="battery_saving_settings">
+        <CheckBoxPreference android:title="@string/no_activities" android:key="disable_activities_run" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_alarms" android:key="disable_alarms" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_app_launch" android:key="disable_app_launch" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_auto_sync_control" android:key="disable_auto_sync_control" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/lowest_app_brightness" android:key="set_lowest_app_brightness" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/dark_app_theme" android:key="set_dark_app_theme" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_bluetooth" android:key="disable_bluetooth_control" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_camera" android:key="disable_camera_control" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_network_connection" android:key="disable_network_connection" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_notifications" android:key="disable_notifications" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_notification_lights" android:key="disable_notification_lights" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_receivers" android:key="disable_receivers" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_services" android:key="disable_services" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_vibrations" android:key="disable_vibrations" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_wakelocks" android:key="disable_wakelocks" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_wifi_control" android:key="disable_wifi_control" android:defaultValue="false" />
+        <CheckBoxPreference android:title="@string/no_wifi_ap_control" android:key="disable_wifi_ap_control" android:defaultValue="false" />
+    </PreferenceCategory>
+</PreferenceScreen>
